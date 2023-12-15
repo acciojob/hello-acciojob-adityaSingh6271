@@ -1,12 +1,19 @@
-
-/* Your CSS Code here. */
-.accio{
-	width:150px;
-	background-color:#000000;
+/* Reset default margin and padding */
+body, h1, p, main {
+    margin: 0;
+    padding: 0;
 }
 
-.hello accio{
-	color:#ffffff;
-	left margin:32px;
-	padding:10px;
+/* Style the main element */
+.accio {
+    width: 150px;
+    height: 150px;
+    background-color: #000000;
+}
+
+/* Style the paragraph element with class hello-accio */
+.hello-accio {
+    color: #ffffff;
+    margin-left: 32px;
+    padding: 10px;
 }
